@@ -12,4 +12,4 @@ print("Minutos:", minutos)
 segundos = minutos * 60
 print("Segundos:", segundos)
 
-print("Conversão para escala de tempo: {0:.0f} dia(s), {1:.0f} horas, {2:.2f} minutos e {3:.1f} segundos".format(dias, horas, minutos, segundos))
+print("Conversão: {0:.0f} dia(s), {1:.0f} horas, {2:.2f} minutos e {3:.1f} segundos".format(dias, horas, minutos, segundos))
