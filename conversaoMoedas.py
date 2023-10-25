@@ -6,8 +6,13 @@ pesoArgentino = dolar * 349.83
 iene = dolar * 149.92
 
 
-print(dolar, "dolares equivalem a", "{:.2f}".format(euro), "euros")
-print(dolar, "dolares equivalem a", "{:.2f}".format(franco), "francos")
-print(dolar, "dolares equivalem a", "{:.2f}".format(real), "reais")
-print(dolar, "dolares equivalem a", "{:.2f}".format(pesoArgentino), "pesos argentinos")
-print(dolar, "dolares equivalem a", "{:.2f}".format(iene), "ienes")
+print("{0} dolares equivalem a {1:.2f} euros".format(dolar, euro))
+
+print("{0} dolares equivalem a {1:.2f} francos".format(dolar, franco))
+
+print("{0} dolares equivalem a {1:.2f} dolar".format(dolar, real))
+
+print("{0} dolares equivalem a {1:.2f} pesos argentinos".format(dolar, pesoArgentino))
+
+print("{0} dolares equivalem a {1:.2f} ienes".format(dolar, iene))
+
