@@ -16,3 +16,9 @@ print("{0} dolares equivalem a {1:.2f} pesos argentinos".format(dolar, pesoArgen
 
 print("{0} dolares equivalem a {1:.2f} ienes".format(dolar, iene))
 
+print(f"{dolar:.2f} dolares equivalem a {euro:.2f} euros")
+print(f"{dolar:.2f} dolares equivalem a {franco:.2f} francos")
+print(f"{dolar:.2f} dolares equivalem a {pesoArgentino:.2f} pesos argentinos")
+print(f"{dolar:.2f} dolares equivalem a {iene:.2f} ienes")
+
+
