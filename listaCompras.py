@@ -20,10 +20,10 @@ while True:
     # Remover um item
     elif opcao == 2:
         nome = input("Digite o nome do item a ser removido: ").lower()
-        itemEncontrado = False
 
+        itemEncontrado = False
         for item in lista:
-            if nome == item[0]: #item[0] é o nome do item na lista (nome, quantidade)
+            if nome == item[0]: #item[0] é o "nome" do item salvo na lista → (nome, quantidade)
                 lista.remove(item)
                 itemEncontrado = True
                 print("Item removido com sucesso.\n")
