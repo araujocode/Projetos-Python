@@ -1,7 +1,12 @@
 lista = []
+<<<<<<< HEAD
 condicao = True
 
 while condicao:
+=======
+
+while True:
+>>>>>>> 9b46d9244c7d8a272d5544fa739b9278e62d9e69
     print("Menu")
     print("1. Adicionar um item")
     print("2. Remover um item")
@@ -27,14 +32,26 @@ while condicao:
             if nome == item[0]: #item[0] é o "nome" do item salvo na lista → (nome, quantidade)
                 lista.remove(item)
                 itemEncontrado = True
+<<<<<<< HEAD
                 print("Item removido com sucesso.\n")              
         if not itemEncontrado:
             print("\nItem não encontrado na lista.\n")
+=======
+                print("Item removido com sucesso.\n")
+                break
+
+        if not itemEncontrado:
+            print("Item não encontrado na lista.\n")
+>>>>>>> 9b46d9244c7d8a272d5544fa739b9278e62d9e69
 
     # Visualizar a lista
     elif opcao == 3:
         if not lista:
+<<<<<<< HEAD
             print("\nLista vazia.\n")
+=======
+            print("Lista vazia.\n")
+>>>>>>> 9b46d9244c7d8a272d5544fa739b9278e62d9e69
         else:
             for item in lista:
                 print(f"\nItem: {item[0]} - Quantidade: {item[1]}\n")
@@ -42,7 +59,11 @@ while condicao:
     # Ordenar a lista
     elif opcao == 4:
         if not lista:
+<<<<<<< HEAD
             print("\nLista vazia.\n")
+=======
+            print("Lista vazia.\n")
+>>>>>>> 9b46d9244c7d8a272d5544fa739b9278e62d9e69
         else:
             lista.sort()
             print("A lista foi ordenada.\n")
@@ -53,7 +74,11 @@ while condicao:
     # Sair
     elif opcao == 5:
         print("Você saiu")
+<<<<<<< HEAD
         condicao = False
+=======
+        break
+>>>>>>> 9b46d9244c7d8a272d5544fa739b9278e62d9e69
 
     else:
         print("Opção inválida\n")
